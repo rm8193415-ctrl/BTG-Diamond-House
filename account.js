@@ -11,7 +11,7 @@ var telegram_channel_link = "https://t.me/Ronimalik22";
 // =======================================================
 // TELEGRAM GROUP LINK
 // =======================================================
-var telegram_group_link = "telegram group link";
+var telegram_group_link = "https://t.me/+DlYKjrvkRQk4OTll";
 
 // =======================================================
 // YOUTUBE CHANNEL LINK
