@@ -639,15 +639,28 @@ html,body,.pk,.po,.btn,.pay,.q,.card,.nav a,.pv-back{touch-action:manipulation}
     <div class="pv-head"><span class="n">3</span><h2>Select one option</h2></div>
     <div class="pv-body">
       <div class="po-grid" id="uidPo">
-        <div role="button" tabindex="0" class="po on" data-pay="Wallet Pay">
-          <div class="pbx"><img src="wallet.jpg" alt="" onerror="this.style.display='none'"></div>
-          <div class="pft">Wallet Pay</div>
-        </div>
-        <div role="button" tabindex="0" class="po" data-pay="Instant Pay">
-          <div class="pbx"><img src="andmoney.jpg" alt="" onerror="this.style.display='none'"></div>
-          <div class="pft">Instant Pay</div>
-        </div>
+  <!-- বিকাশ পেমেন্ট অপশন -->
+  <div role="button" tabindex="0" class="po on" data-pay="bKash">
+    <div class="pbx"><img src="bkash.jpg" alt="bKash" onerror="this.style.display='none'"></div>
+    <div class="pft">bKash</div>
+  </div>
+  <!-- নগদ পেমেন্ট অপশন -->
+  <div role="button" tabindex="0" class="po" data-pay="Nagad">
+    <div class="pbx"><img src="nagad.jpg" alt="Nagad" onerror="this.style.display='none'"></div>
+    <div class="pft">Nagad</div>
+  </div>
+  <!-- রকেট পেমেন্ট অপশন -->
+  <div role="button" tabindex="0" class="po" data-pay="Rocket">
+    <div class="pbx"><img src="rocket.jpg" alt="Rocket" onerror="this.style.display='none'"></div>
+    <div class="pft">Rocket</div>
+  </div>
+  <!-- ওয়ালেট পে -->
+  <div role="button" tabindex="0" class="po" data-pay="Wallet Pay">
+    <div class="pbx"><img src="wallet.jpg" alt="Wallet" onerror="this.style.display='none'"></div>
+    <div class="pft">Wallet Pay</div>
+  </div>
       </div>
+      
 
       <div class="bal" id="uidBalRow" style="display:none">
         <svg class="i"><use href="#info"/></svg>
